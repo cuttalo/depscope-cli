@@ -1,0 +1,41 @@
+{
+  "name": "depscope-cli",
+  "version": "0.2.1",
+  "description": "Audit npm/pypi/cargo/go dependencies against DepScope: detect deprecated, malicious, CVE-active packages before install. Zero-auth.",
+  "bin": {
+    "depscope": "./bin/ds.js",
+    "ds": "./bin/ds.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuttalo/depscope-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cuttalo/depscope-cli/issues"
+  },
+  "homepage": "https://depscope.dev",
+  "keywords": [
+    "dependencies",
+    "security",
+    "deprecated",
+    "malicious",
+    "cve",
+    "npm",
+    "pypi",
+    "cargo",
+    "audit",
+    "ai-agents",
+    "llm",
+    "hallucination"
+  ],
+  "author": "DepScope <team@depscope.dev>",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "README.md"
+  ]
+}
