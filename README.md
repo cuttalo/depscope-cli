@@ -44,7 +44,7 @@ depscope migration npm request axios     # literal before/after code diff
 depscope check npm/express               # full JSON
 ```
 
-Ecosystems: `npm`, `pypi`, `cargo`, `go`, `composer`, `maven`, `nuget`, `rubygems`, `pub`, `hex`, `swift`, `cocoapods`, `cpan`, `hackage`, `cran`, `conda`, `homebrew`.
+Ecosystems: `npm`, `pypi`, `cargo`, `go`, `composer`, `maven`, `nuget`, `rubygems`, `pub`, `hex`, `swift`, `cocoapods`, `cpan`, `hackage`, `cran`, `conda`, `homebrew`, `jsr`, `julia`.
 
 ## CI / pre-commit
 
@@ -61,6 +61,6 @@ If you use Claude Code, Cursor, or any MCP-compatible client, DepScope is also a
 
 ## Why
 
-Installing deprecated or malicious packages wastes time, burns tokens, and creates security debt. DepScope has indexed 26k+ packages across 17 ecosystems, cross-referenced against CISA KEV, EPSS, and OpenSSF malicious database, with curated migration paths. Free forever.
+Installing deprecated or malicious packages wastes time, burns tokens, and creates security debt. DepScope has indexed 26k+ packages across 19 ecosystems, cross-referenced against CISA KEV, EPSS, and OpenSSF malicious database, with curated migration paths. Free forever.
 
 **Source**: [depscope.dev](https://depscope.dev) · **MCP**: [mcp.depscope.dev](https://mcp.depscope.dev/mcp) · [GitHub](https://github.com/depscope-dev/cli)
